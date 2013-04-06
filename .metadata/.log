@@ -792,3 +792,53 @@ java.net.UnknownHostException: dl-google.com
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 12:43:10.203
 !MESSAGE No repository found at http://dl.google.com/eclipse/plugin/3.5.
+!SESSION 2013-04-06 13:04:58.250 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 13:05:46.031
+!MESSAGE No repository found at file:/D:/PatternWeaverCE23r.zip!.
+
+!ENTRY org.eclipse.equinox.p2.repository 4 1006 2013-04-06 13:05:48.671
+!MESSAGE Unknown Host: https://dl-google.com/android/eclipse/content.xml
+!STACK 0
+java.net.UnknownHostException: dl-google.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.events.socket.SocketEventCreateUtil.createSocket(SocketEventCreateUtil.java:43)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient.ECFHttpClientProtocolSocketFactory.createSocket(ECFHttpClientProtocolSocketFactory.java:81)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient.ECFHttpClientProtocolSocketFactory.createSocket(ECFHttpClientProtocolSocketFactory.java:73)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient.ECFHttpClientProtocolSocketFactory.createSocket(ECFHttpClientProtocolSocketFactory.java:65)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.open(MultiThreadedHttpConnectionManager.java:1361)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:346)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:204)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 13:05:49.328
+!MESSAGE No repository found at jar:file:/E:/PatternWeaverCE23r.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 13:05:51.109
+!MESSAGE No repository found at jar:file:/D:/PatternWeaverCE23r.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 13:05:53.796
+!MESSAGE No repository found at http://dl.google.com/eclipse/plugin/3.5.
+!SESSION 2013-04-06 13:23:25.375 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 13:24:02.218
+!MESSAGE No repository found at file:/D:/PatternWeaverCE23r.zip!.
