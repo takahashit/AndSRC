@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">走者</string> 
+<!--  <string name="app_name2">走者カフェ　ログイン／ログアウト</string> -->
+<!--  <string name="app_name3">走者位置サンプリング時間間隔指定（秒単）</string> -->
+<!--  <string name="app_name4">走者軌跡表示</string> -->
+  <string name="app_name5">走者軌跡削除</string>
+  <string name="app_name6">走者軌跡ＳＤカード読み書き</string>
+  <string name="app_name7">走者軌跡表示番号設定</string>  
+  <string name="set_sat">地図／衛星写真</string>
+  <!-- <string name="login_gae">走者ｶﾌｪ</string>  -->
+  <string name="setting">設定</string> 
+  <string name="rec_track">履歴受信</string>
+  <string name="display_tracks">軌跡表示</string> 
+  <string name="delete_tracks">全軌跡削除</string> 
+  <string name="delete_no">削除軌跡番号</string> 
+  <string name="sd_card">ＳＤカード</string> 
+  <string name="move2track">表示／削除軌跡番号</string> 
+  
+ <!--   <string name="menu_recpreferences">受信情報設定</string>  -->
+ <!--   <string name="receive_preferences">受信情報設定</string>  -->
+
+  <string name="menu_apppreferences">設定</string>  
+ 
+  <string name="tracking_preferences">軌跡間隔設定</string> 
+  <string name="pref_tracking_freq">軌跡間隔</string>
+  <string name="pref_tracking_freq_summary">軌跡の時間間隔を設定</string>
+  
+  <string name="location_preferences">位置情報送受信設定</string>  
+  <string name="pref_server_freq">送信間隔</string>
+  <string name="pref_server_freq_summary">位置情報の送信間隔を設定</string>
+  <string name="pref_send_stop">送信停止</string>
+  <string name="pref_send_stop_summary">送信停止を設定</string>
+  <string name="receive_radius">受信位置情報半径</string>
+  <string name="receive_radius_summary">位置情報の受信半径を設定</string>
+  <string name="receive_time">受信軌跡履歴期間</string>
+  <string name="receive_time_summary">軌跡履歴の期間を設定</string>
+  <string name="pref_receive_freq">受信間隔</string>
+  <string name="pref_receive_freq_summary">位置情報の受信間隔を設定</string> 
+  <string name="pref_receive_stop">受信停止</string> 
+  <string name="pref_receive_stop_summary">受信停止を設定</string>
+ 
+  
+  <string name="server_preferences">サーバー設定</string>
+  <string name="pref_server_url">サーバーURL</string>
+  <string name="pref_server_url_summary">送信先サーバーのURLを入力</string>
+  <string name="pref_login_id">ログインID</string>
+  <string name="pref_login_id_summary">ログインIDを入力</string>
+
+  <string name="cannot_connect_server">サーバーに接続できませんでした</string>
+  <string name="io_error">IOエラーが発生しました</string>
+
+</resources>
