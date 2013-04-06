@@ -5,6 +5,6 @@ import android.view.View;
 
 public interface ConnectedListener {
 
-	void onRecieve();
+	void onRecieve(View v);
 
 }

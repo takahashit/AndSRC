@@ -119,7 +119,7 @@ public class MainAcivity extends Activity implements ConnectedListener{
     };
    
 	@Override
-	public void onRecieve() {
+	public void onRecieve(View v) {
 		//Context context = mContext.getApplicationContext();
 		//
 		

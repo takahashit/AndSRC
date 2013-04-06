@@ -21,7 +21,7 @@ public class SendThread extends Thread{
 	@Override
 	public void run(){
 
-         mService.recieveStart(mConnectedListener);
+         mService.recieveStart(mConnectedListener,mv);
                     
 	}
 }

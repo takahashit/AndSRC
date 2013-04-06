@@ -51,7 +51,7 @@ public class SampleService extends Service {
     }
     
     public void recieveStart(ConnectedListener listener) {
-       	mRecieveThread = new RecieveThread(mycontext,listener);
+       	mRecieveThread = new RecieveThread(mycontext,listenerS);
        	mRecieveThread.start();
     }
 

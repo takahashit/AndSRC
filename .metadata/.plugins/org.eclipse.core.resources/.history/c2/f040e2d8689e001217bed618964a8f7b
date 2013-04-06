@@ -50,8 +50,8 @@ public class SampleService extends Service {
        	mSendThread.start();
     }
     
-    public void recieveStart(ConnectedListener listener) {
-       	mRecieveThread = new RecieveThread(mycontext,listener);
+    public void recieveStart(ConnectedListener listener,View v) {
+       	mRecieveThread = new RecieveThread(mycontext,listener,v);
        	mRecieveThread.start();
     }
 
