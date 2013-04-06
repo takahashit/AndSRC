@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\GitSource\\Android\\Sosya\\src\\jp\\co\\entity\\sosya\\ICallbackListener.aidl
+ * Original file: D:\\GitSource\\AndSRC\\Sosya\\src\\jp\\co\\entity\\sosya\\ICallbackListener.aidl
  */
 package jp.co.entity.sosya;
 public interface ICallbackListener extends android.os.IInterface

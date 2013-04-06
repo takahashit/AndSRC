@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\GitSource\\Android\\Sosya\\src\\jp\\co\\entity\\sosya\\ICallbackService.aidl
+ * Original file: D:\\GitSource\\AndSRC\\Sosya\\src\\jp\\co\\entity\\sosya\\ICallbackService.aidl
  */
 package jp.co.entity.sosya;
 public interface ICallbackService extends android.os.IInterface

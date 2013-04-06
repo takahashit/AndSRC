@@ -1,0 +1,97 @@
+!SESSION 2013-04-06 10:15:36.703 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\GitSource\AndSRC
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 10:16:10.218
+!MESSAGE No repository found at file:/D:/PatternWeaverCE23r.zip!.
+
+!ENTRY org.eclipse.equinox.p2.repository 4 1006 2013-04-06 10:16:12.765
+!MESSAGE Unknown Host: https://dl-google.com/android/eclipse/content.xml
+!STACK 0
+java.net.UnknownHostException: dl-google.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.events.socket.SocketEventCreateUtil.createSocket(SocketEventCreateUtil.java:43)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient.ECFHttpClientProtocolSocketFactory.createSocket(ECFHttpClientProtocolSocketFactory.java:81)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient.ECFHttpClientProtocolSocketFactory.createSocket(ECFHttpClientProtocolSocketFactory.java:73)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient.ECFHttpClientProtocolSocketFactory.createSocket(ECFHttpClientProtocolSocketFactory.java:65)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.open(MultiThreadedHttpConnectionManager.java:1361)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:346)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:204)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 10:16:13.125
+!MESSAGE No repository found at jar:file:/E:/PatternWeaverCE23r.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 10:16:14.828
+!MESSAGE No repository found at jar:file:/D:/PatternWeaverCE23r.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 10:16:17.703
+!MESSAGE No repository found at http://dl.google.com/eclipse/plugin/3.5.
+!SESSION 2013-04-06 10:16:23.796 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\GitSource\AndSRC
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 10:16:51.109
+!MESSAGE No repository found at file:/D:/PatternWeaverCE23r.zip!.
+
+!ENTRY org.eclipse.equinox.p2.repository 4 1006 2013-04-06 10:16:53.718
+!MESSAGE Unknown Host: https://dl-google.com/android/eclipse/content.xml
+!STACK 0
+java.net.UnknownHostException: dl-google.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.events.socket.SocketEventCreateUtil.createSocket(SocketEventCreateUtil.java:43)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient.ECFHttpClientProtocolSocketFactory.createSocket(ECFHttpClientProtocolSocketFactory.java:81)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient.ECFHttpClientProtocolSocketFactory.createSocket(ECFHttpClientProtocolSocketFactory.java:73)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient.ECFHttpClientProtocolSocketFactory.createSocket(ECFHttpClientProtocolSocketFactory.java:65)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.open(MultiThreadedHttpConnectionManager.java:1361)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:346)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:204)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 10:16:54.218
+!MESSAGE No repository found at jar:file:/E:/PatternWeaverCE23r.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 10:16:55.968
+!MESSAGE No repository found at jar:file:/D:/PatternWeaverCE23r.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-04-06 10:16:58.812
+!MESSAGE No repository found at http://dl.google.com/eclipse/plugin/3.5.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-04-06 10:17:12.000
+!MESSAGE loadAndParseRClass: failed to find manifest package for project Sosya
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2013-04-06 10:17:18.687
+!MESSAGE Registering: com.google.appengine.eclipse.sdkbundle_1.4.3.r35v201104261923
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2013-04-06 10:17:19.734
+!MESSAGE Registering: com.google.gwt.eclipse.sdkbundle_2.3.0.r35v201104261923
+
+!ENTRY org.eclipse.ui 4 4 2013-04-06 10:18:28.421
+!MESSAGE Invalid preference page path: CSS Files
+
+!ENTRY org.eclipse.ui 4 4 2013-04-06 10:18:28.421
+!MESSAGE Invalid preference page path: JavaScript
