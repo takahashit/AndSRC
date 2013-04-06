@@ -122,6 +122,8 @@ public class MainAcivity extends Activity implements ConnectedListener{
 	public void onRecieve() {
 		//Context context = mContext.getApplicationContext();
 		//
+		//Context context = mContext.getApplicationContext();
+		//
 		
 
 		  		try{

@@ -1,0 +1,15 @@
+package jp.taka.hgtest;
+
+import android.content.Context;
+import android.view.View;
+
+public interface ConnectedListener {
+<<<<<<< .mine
+
+	void onRecieve();
+=======
+>>>>>>> .r8
+
+	void onRecieve(View v);
+
+}
