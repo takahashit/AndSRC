@@ -1335,3 +1335,69 @@ com.android.ddmlib.ShellCommandUnresponsiveException
 	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:823)
 	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.access$3(AndroidLaunchController.java:807)
 	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController$3.run(AndroidLaunchController.java:655)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-04-08 11:38:09.218
+!MESSAGE Failed to load properties file for project 'Gsenser'
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.328
+!MESSAGE NLS unused message: missingOneOfTwoAttributes in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.328
+!MESSAGE NLS unused message: categoryNotDefined in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.328
+!MESSAGE NLS unused message: actionNotDefined in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS unused message: actionAlreadyDefined in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS unused message: presetNotDefined in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS unused message: templateNotDefined in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS unused message: invalidActionType in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS unused message: invalidEventHandlerType in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS unused message: invalidRequiresConstraint in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS unused message: invalidConflictsConstraint in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS unused message: deprecatedRuntimeChangedAction in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS unused message: tracingActionSorting in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS unused message: tracingFrameworkActivationStarting in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS unused message: tracingFrameworkActivationFinished in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS missing message: problemCaseNotRecognized in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-08 11:38:24.343
+!MESSAGE NLS missing message: runtimeComponentTypeNotDefined in: org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2013-04-08 11:38:24.343
+!MESSAGE Project facet wst.web has not been defined. It is used in plugin org.eclipse.jst.common.project.facet.core.
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2013-04-08 11:48:54.421
+!MESSAGE AndroidManifest: Ignoring unknown 'TextVie' XML element
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2013-04-08 11:48:54.500
+!MESSAGE AndroidManifest: Ignoring unknown 'TextV' XML element
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2013-04-08 11:48:54.562
+!MESSAGE AndroidManifest: Ignoring unknown 'Tex' XML element
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2013-04-08 11:48:54.640
+!MESSAGE AndroidManifest: Ignoring unknown 'T' XML element
