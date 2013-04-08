@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="27" version="2.0">
 <workbenchAdvisor/>
-<window height="738" width="1024" x="13" y="34">
+<window height="738" width="1030" x="-6" y="11">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -16,13 +16,13 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="118" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="96" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="73" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="188" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="194" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="188" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="116" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="175" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -34,34 +34,22 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Gsenser Manifest" path="D:/GitSource/AndSRC/Gsenser/AndroidManifest.xml" title="Gsenser Manifest" tooltip="Gsenser/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Gsenser/AndroidManifest.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Gsenser.java" partName="Gsenser.java" path="D:/GitSource/AndSRC/Gsenser/src/jp/taka/app/gsenser/Gsenser.java" title="Gsenser.java" tooltip="Gsenser/src/jp/taka/app/gsenser/Gsenser.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Gsenser.java" partName="Gsenser.java" path="D:/GitSource/AndSRC/Gsenser/src/jp/taka/app/gsenser/Gsenser.java" title="Gsenser.java" tooltip="Gsenser/src/jp/taka/app/gsenser/Gsenser.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Gsenser/src/jp/taka/app/gsenser/Gsenser.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1575" selectionTopPixel="782"/>
-</editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" partName="main.xml" path="D:/GitSource/AndSRC/Gsenser/res/layout/main.xml" title="main.xml" tooltip="Gsenser/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Gsenser/res/layout/main.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2491" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy">
-<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName="Aggregate for window 1365210944312"/>
-</view>
 <view id="com.android.ide.eclipse.ddms.views.DeviceView" partName="Devices">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (29 items)"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (29 items)"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="54" org.eclipse.ui.ide.markerType="79" org.eclipse.ui.ide.pathField="104" org.eclipse.ui.ide.resourceField="79" org.eclipse.ui.ide.severityAndDescriptionField="250"/>
@@ -111,7 +99,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="com.android.ide.eclipse.editors.layout.LayoutEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="adt.actionSet.wizards"/>
@@ -177,25 +165,28 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.android.ide.eclipse.ddms.views.DeviceView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@9cc6fb">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1d4c7a4">
 <folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
-<page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@9cc6fb" ratio="0.18199801" ratioLeft="184" ratioRight="827" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1d4c7a4">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="left" ratio="0.24874792" ratioLeft="149" ratioRight="450" relationship="4" relative="org.eclipse.ui.internal.ViewStack@9cc6fb">
@@ -255,156 +246,41 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Gsenser/src/jp/taka/app/gsenser/Gsenser.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Gsenser/gen/jp/taka/app/gsenser/R.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/Gsenser/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Gsenser/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Gsenser/gen/jp/taka/app/gsenser/Gsenser.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/Gsenser/res/layout/main.xml"/>
 </editors>
 <item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="445" y="13"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="809" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="623" y="8"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="932" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1543" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1428" y="4"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1545" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1428" y="4"/>
-</item>
-<item historyLabel="R.java" index="1">
 <position/>
 </item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1428" y="4"/>
+<item historyLabel="main.xml" index="1"/>
+<item historyLabel="Gsenser.java" index="2">
+<position info="not_deleted" x="1579" y="0"/>
 </item>
+<item historyLabel="main.xml" index="3"/>
 <item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1442" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1480" y="4"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1529" y="4"/>
+<position info="not_deleted" x="2557" y="0"/>
 </item>
 <item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1492" y="0"/>
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1575" y="0"/>
+<position info="not_deleted" x="2476" y="0"/>
 </item>
-<item historyLabel="main.xml" index="2"/>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1575" y="0"/>
+<item active="true" historyLabel="Gsenser.java" index="0">
+<position info="not_deleted" x="2347" y="8"/>
 </item>
-<item historyLabel="main.xml" index="2"/>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1545" y="0"/>
-</item>
-<item historyLabel="main.xml" index="2"/>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1545" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1428" y="12"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1480" y="10"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1529" y="9"/>
-</item>
-<item historyLabel="R.java" index="1">
-<position/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1646" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1480" y="10"/>
-</item>
-<item historyLabel="R.java" index="1">
-<position/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1480" y="10"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1540" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1529" y="9"/>
-</item>
-<item historyLabel="R.java" index="1">
-<position info="not_deleted" x="775" y="16"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1543" y="0"/>
-</item>
-<item historyLabel="main.xml" index="2"/>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1543" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1529" y="9"/>
-</item>
-<item historyLabel="R.java" index="1">
-<position/>
-</item>
-<item historyLabel="R.java" index="1">
-<position info="not_deleted" x="577" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1529" y="9"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1492" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1480" y="10"/>
-</item>
-<item historyLabel="R.java" index="1">
-<position info="not_deleted" x="891" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1480" y="10"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1529" y="9"/>
-</item>
-<item historyLabel="R.java" index="1">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1529" y="9"/>
-</item>
-<item historyLabel="Gsenser Manifest" index="3"/>
-<item historyLabel="R.java" index="1">
-<position info="not_deleted" x="611" y="0"/>
-</item>
-<item historyLabel="Gsenser.java" index="0">
-<position info="not_deleted" x="1575" y="0"/>
-</item>
-<item active="true" historyLabel="main.xml" index="2"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1d4c7a4"/>
+</trimArea>
 <trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@9cc6fb"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 <trimItem IMemento.internal.id="right"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
@@ -415,19 +291,18 @@
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
 <trimItem IMemento.internal.id="com.google.gdt.eclipse.login.status.trim"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Gsenser.java" tooltip="Gsenser/src/jp/taka/app/gsenser/Gsenser.java">
+<persistable path="/Gsenser/src/jp/taka/app/gsenser/Gsenser.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" tooltip="Gsenser/res/layout/main.xml">
 <persistable path="/Gsenser/res/layout/main.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="Gsenser/gen/jp/taka/app/gsenser/R.java">
 <persistable path="/Gsenser/gen/jp/taka/app/gsenser/R.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Gsenser.java" tooltip="Gsenser/src/jp/taka/app/gsenser/Gsenser.java">
-<persistable path="/Gsenser/src/jp/taka/app/gsenser/Gsenser.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Gsenser/AndroidManifest.xml">
 <persistable path="/Gsenser/AndroidManifest.xml"/>
