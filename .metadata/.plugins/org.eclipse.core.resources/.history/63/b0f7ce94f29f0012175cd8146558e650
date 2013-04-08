@@ -118,6 +118,7 @@ public class MainAcivity extends Activity implements ConnectedListener{
 		}
     };
    
+	@Override
 	public void onRecieve() {
 		//Context context = mContext.getApplicationContext();
 		//
@@ -137,7 +138,6 @@ public class MainAcivity extends Activity implements ConnectedListener{
 		 Log.i(TAB,"onRecieve !!");
 	
 	}
-
 
 
 }
