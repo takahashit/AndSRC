@@ -1,3 +1,4 @@
-#Sat Apr 06 10:18:51 JST 2013
-com.android.ide.eclipse.adt.sdk=C\:\\android-sdk_r10
+com.android.ide.eclipse.adt.fixLegacyEditors=1
+com.android.ide.eclipse.adt.sdk=D\:\\adt\\sdk
+com.android.ide.eclipse.adt.xmlEditor=true
 eclipse.preferences.version=1

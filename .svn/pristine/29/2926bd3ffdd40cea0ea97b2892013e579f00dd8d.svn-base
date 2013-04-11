@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">AndroidVersionBook</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">AndroidVersionBook</string>
+    <string name="platformEnNameLabel">■バージョンコード</string>
+    <string name="platformEnName2">Gingerbread</string>
+    <string name="platformEnName3">Honeycomb</string>
+    <string name="platformEnName4">Ice Cream Sandwich</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="result_text">画面が切り替わりました。</string>
+    <string name="platformJaNameLabel">■読み方</string>
+    <string name="platformApiLevelLabel">■APIレベル</string>
+
+</resources>

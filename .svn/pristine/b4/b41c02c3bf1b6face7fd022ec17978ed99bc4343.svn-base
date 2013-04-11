@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="platformJaName">
+        <item>ジンジャーブレッド</item>
+        <item>ハニコム</item>
+        <item>アイスクリームサンドウィッチ</item>
+    </array>
+    <array name="platformApiLevel">
+        <item>9～10</item>
+        <item>11～13</item>
+        <item>14～15</item>
+    </array>
+
+</resources>
